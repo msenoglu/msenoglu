@@ -3031,7 +3031,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #fff;
   border-color: #1abc9c;
 }
 .btn-primary:hover {
@@ -11443,6 +11443,8 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%;
+  box-shadow: 10px 10px 55px var(--bs-secondary);
 }
 
 @media (min-width: 992px) {
